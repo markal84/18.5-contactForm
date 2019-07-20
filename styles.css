@@ -1,0 +1,51 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    margin-left: 50px;
+  }
+   
+  div {
+      background-color: #ccc;
+    font: 200 16px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ddd;
+  }
+   
+  div:last-child {
+    border-bottom: none;
+  }
+   
+  div a, div p {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 400px;
+    cursor: pointer;
+    padding: 10px;
+   
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+  }
+   
+  div a:hover, div p:hover {
+    font-size: 18px;
+    background: #f6f6f6;
+  }
+
+  .contactForm {
+      padding: 20px;
+      margin:  auto;
+  }
+  input {
+      padding: 20px;
+  }
+  button {
+      padding: 20px;
+      margin-left: 10px;
+      background-color: lightblue;
+      border: 1px solid rgb(84, 165, 240);
+  }
